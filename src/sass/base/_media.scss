@@ -1,0 +1,109 @@
+@media ( max-width: 1200px ) {
+    .promo {
+        &__header {
+            font-size: 33px;
+        }
+        &__subheader {
+            font-size: 19px;
+        }
+    }
+}
+@media ( max-width: 991px ) {
+    .container {
+        max-width: 100%;
+    }
+    .header {
+        justify-content: space-around;
+    }
+    .promo {
+        min-height: 620px;
+        &__wrapper {
+            margin-top: 60px;
+            align-items: center;
+        }
+    }
+    .button {
+        &_main {
+            margin-top: 45px;
+        }
+    }
+}
+@media ( max-width: 767px ) {
+    .header {
+        &__logo {
+            width: 180px;
+        }
+        &__official {
+            font-size: 10px;
+            span {
+                font-size: 14px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }
+    .promo {
+        &__header {
+            font-size: 30px;
+        }
+        &__subheader {
+            font-size: 17px;
+        }
+    }
+    .advantages {
+        &__icon {
+            font-size: 12px;
+            h2 {
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media ( max-width: 575px ) {
+    .header {
+        flex-direction: column;
+        &__official {
+            margin-top: 12px;
+        }
+        &__contacts {
+            margin-top: 12px;
+        }
+    }
+    .promo {
+        padding-bottom: 21px;
+        &__header {
+            font-size: 22px;
+        }
+        &__subheader {
+            font-size: 12px;
+        }
+        &__wrapper {
+            margin-top: 35px;
+        }
+        &__icons {
+            justify-content: center;
+            width: 100%;
+        }
+        &__icon {
+            width: 100px;
+            font-size: 10px;
+        }
+    }
+    .advantages {
+        padding: 40px 0 20px 0;
+        &__icons {
+            flex-direction: column;
+            align-items: center;
+        }
+        &__icon {
+            margin-top: 15px;
+            h2 {
+                margin-top: 0;
+            }
+        }
+        &__descr {
+            margin-top: 18px;
+        }
+    }
+}
